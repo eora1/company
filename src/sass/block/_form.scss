@@ -1,0 +1,59 @@
+.form {
+    padding: 40px;
+    width: 630px;
+    background: #ffffff;
+    box-shadow: 0px 10px 20px rgba(211, 211, 211, 0.25);
+  }
+  
+  /* Personal data */
+  
+  .form-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 28px;
+  }
+  
+  .form-group {
+    margin-bottom: 30px;
+  }
+  
+  .form-group:last-of-type {
+    /* Убираем отступ от последнего блока form-group-Directions  */
+    margin-bottom: 35px;
+  }
+  
+  .form-group-title {
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  .form-group-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .form-group-row > .input + .input {
+    margin-left: 10px; /* в form-group-row лежит input у которого слева есть input, то мы правому даём  margin-left: 10px  */
+  }
+  
+  .input {
+    /*display: inline-block;-по умолчанию  */
+    /*font-family: "PT Sans", sans-serif; input надо заново задавать шрифты , т.к. браузер их переопределяет*/
+    width: 100%; /* у inline-block ширина завист от контента, поэтому указывает 100%, чтобы блок растянулся */
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+  
+    background: #eeeeee;
+    border: 1px solid #c0c0c0;
+    border-radius: 6px;
+  
+    font-size: 18px;
+    color: #31405b;
+  }
+  
+  .input::placeholder {
+    color: rgba(48, 63, 90, 0.507); /*0.507-прозрачность*/
+  }

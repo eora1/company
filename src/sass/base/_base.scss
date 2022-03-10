@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;  /* Sticky footer */
+}
+
+body {
+  height: 100%; /* Sticky footer */
+  display: flex; /* Sticky footer */
+  flex-direction: column; /* Sticky footer */
+  margin: 0;
+  font-family: "PT Sans", sans-serif;
+  color: #31405b;
+}
+
+body > * {
+    /* Sticky footer */ /* Любой элемент первого уровня вложенности в body не будет сжиматься */
+  flex-shrink: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.none {
+  display: none; /* для скрытия контента */
+}
+
+.bgcolor {
+  background-color: #f2f8f6;
+}
+
+input {
+  font-family: "PT Sans", sans-serif;
+}
+
+label { 
+  cursor: pointer; /* При взаимодействии курсора с интерактивным эл-ом, он меняет свой вид*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.main-header {
+  font-weight: bold;
+  font-size: 54px;
+  color: #31405b;
+}
+
+.inner-page-section {
+  padding-top: 60px;
+  padding-bottom: 100px;
+}

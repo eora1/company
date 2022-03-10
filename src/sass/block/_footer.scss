@@ -1,0 +1,85 @@
+.footer {
+    margin-top: auto; /* Sticky footer */
+    padding-top: 71px;
+    padding-bottom: 94 px;
+    background-color: #265847;
+    color: white;
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .footer-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-widget-wrapper {
+    padding-top: 10px;
+    display: flex;
+  }
+  
+  .footer-copyright {
+    width: 270px;
+  }
+  
+  .footer-logo {
+    margin-bottom: 28px;
+  }
+  
+  /* .footer .logo{ 
+      margin-bottom: 26px;
+  }*/
+  
+  .footer-copyright p {
+    font-size: 16px;
+    line-height: 1.64;
+  }
+  
+  .footer-widget {
+    font-size: 18px;
+  }
+  
+  .footer-widget-info {
+    width: 170px;
+  }
+  
+  .footer-widget-services,
+  .footer-widget-contacts {
+    width: 270px;
+  }
+  
+  .footer-widget + .footer-widget {
+    /* Выбирает каждый эл-т справа и даёт ему отступ*/
+    margin-left: 30px;
+  }
+  
+  .footer-widget-title {
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+  }
+  
+  .footer-widget-list {
+    font-size: 18px;
+  }
+  
+  .footer-widget-list li {
+    margin-bottom: 15px;
+  }
+  
+  /* inner-page-tours */
+  
+  .inner-page-tours-header {
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  

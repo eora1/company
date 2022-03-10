@@ -1,0 +1,72 @@
+.cards-first-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .card {
+    width: 570px;
+  }
+  
+  .card.big {
+    width: 670px;
+  }
+  
+  .card.small {
+    width: 470px;
+  }
+  
+  .card-title-wrapper {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 80px;
+    color: #ffffff;
+  
+    overflow: hidden; 
+    white-space: nowrap;
+  }
+  
+  .card-link-wrapper {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .card-title-wrapper.tours-color {
+    background-color: #a6a6a6;
+  }
+  
+  .card-title-wrapper.extreme-color {
+    background-color: #c1b19b;
+  }
+  
+  .card-title-wrapper.adventures-color {
+    background-color: #66b0be;
+  }
+  
+  .card-title-wrapper.trekking-color {
+    background-color: #876f56;
+  }
+  
+  .card-title-wrapper.exotic-color {
+    background-color: #27695e;
+  }
+  
+  .card-title {
+    font-weight: 700;
+    font-size: 28px;
+  
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  
+  .cards-second-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cards-second-row-column > * + * {
+    margin-top: 30px;
+  } /* Элемент, который на первом уровне вложенности имеет соседа слева, получает отсуп сверху 30px */

@@ -1,0 +1,70 @@
+.contacts-header {
+    margin-bottom: 40px;
+  }
+  
+  .contacts-row {
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: flex-start;
+  }
+  
+  .contact-info {
+    width: 470px;
+  }
+  
+  .contact-block + .contact-block {
+    /* Мы вибираем тот блок, у которого есть сосед слева и даём ему отступ сверху 40px*/
+    margin-top: 40px;
+  }
+  
+  .contact-block-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 28px;
+    color: #31405b;
+  }
+  
+  .contact-block-body {
+    font-size: 20px;
+  }
+  
+  .contact-list li {
+    margin-bottom: 15px;
+  }
+  
+  .contact-list li:last-child {
+    margin: 0;
+  }
+  
+  .contact-list a {
+    color: #138ece;
+    text-decoration: none;
+  }
+  
+  .contact-list-icon {
+    /* margin-top: 21px; */
+    position: relative;
+    padding-left: 39px; /* ширина блока(24) + отступ(15) */
+    font-size: 20px;
+  }
+  
+  .contact-list-icon::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .contact-list-icon.phone::before {
+    background-image: url("../img/icon/telephone.svg");
+  }
+  .contact-list-icon.mail::before {
+    background-image: url("../img/icon/mail.svg");
+  }
+  .contact-list-icon.map-point::before {
+    background-image: url("../img/icon/map-point.svg");
+  }
